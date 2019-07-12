@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity(), GestureDetector.OnGestureListener, Ges
     }
 
     override fun onSingleTapConfirmed(p0: MotionEvent?): Boolean {
-        gestureViewer.text = "On Single tap confirmed"
+        gestureViewer.text = "On Single tap"
         return true
     }
 
